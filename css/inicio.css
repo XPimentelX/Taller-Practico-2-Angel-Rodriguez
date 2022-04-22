@@ -1,0 +1,222 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    font-size: 1em;
+    width: 98.5%;
+    background-color: #d88b40;
+    padding: 10px;
+   
+    margin-bottom: 20px;
+}
+nav{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+   
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li a{
+    padding: 25px;
+    color: white;
+    width: 25px;
+    margin: 20px;
+    text-decoration: none;
+   
+}
+li a:hover{
+    border-radius: 2px;
+    transition: .30s;
+    background-color: #9d5832;
+
+    color: white;
+}
+.active{
+    
+    text-decoration: none;
+    width: 25px;
+    border: 2px solid #9d5832;
+    color: white;
+    border-radius: 2px;
+}
+
+@media all and (max-width: 980px){
+    li a{
+        padding: 5px;
+    }
+    nav ul{
+        display: none;
+    }
+}
+
+
+
+
+
+.conten{
+    flex-wrap: wrap;
+    background-color: #d88b40;
+
+}
+.Container2{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 100px;
+   
+ 
+
+}
+.subContainer2{
+    display: flex;
+    margin: 30px 20px;
+    justify-content: center;
+    min-width: 60vh;
+    margin-bottom: 100px;
+
+
+
+}
+.padre{
+
+    width: 40vh;
+    height: auto;
+    text-align: justify;
+    align-items: center;
+    
+ 
+
+
+    
+}
+.padre h4{
+    display: flex;
+    justify-content: center;
+}
+
+.hijo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    width: auto;
+}
+.Container2 .img2{
+    width: 90%;
+    height: 50%;
+}
+
+
+.subContainer1{
+    display: flex;
+    justify-content: center;
+}
+.subContainer3{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.subContainer3 h2{
+    display: flex;
+    justify-content: center;
+}
+.subContainer3 p{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin: 0 30px;
+}
+.subContainer4{
+
+    width: 200%;
+    margin-bottom: 30px;
+}
+table {
+margin: auto;
+ border-collapse: collapse;
+ width: 80%;
+
+}
+th, td {
+ border-right: 2px solid black;
+ border-left:  2px solid black;
+ text-align: center;
+ 
+
+
+}
+.even th{
+    border-top: 2px solid black;
+     background: #6c3325;
+     color: white;
+   
+}
+
+.odd th, .odd td {
+   background: #ffd051;
+
+
+}
+#ultimaFila{
+    border-bottom: 2px solid black;;
+}
+
+.subContainer5{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+}
+.subContainer6{
+    width: 80%;
+
+
+}
+footer{
+    margin-top: 10px;
+
+    background-color: #d88b40;
+    
+}
+footer .footer{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+}
+footer .footer  .facebook{
+    width: 50px;
+    height: 30px;
+}
+footer .footer  .tweet{
+    width: 33px;
+    height: 32px;
+}
+footer .footer  .youtube{
+    width: 30px;
+    height: 25px;
+    margin-top: 3px;
+
+}
+footer .footer  .insta{
+    width: 30px;
+    height: 26px;
+    margin-top: 3px;
+
+}
+footer .footer p{
+    text-align: justify;
+    margin-left: 2px;
+}
+
+
